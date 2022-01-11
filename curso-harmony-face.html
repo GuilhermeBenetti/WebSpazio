@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+        <link href="bootstrap5/css/bootstrap.min.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:400;700;&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/e8fe6e91e9.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Spazio Esthetic</title>
+        <link rel="icon" href="assets/images/icon32x32.png">
+        
+        <style>
+        .altera-fonts{
+            font-size: 22px;
+            font-family: 'Montserrat', sans-serif; 
+        }
+        .offcanvas-bottom {
+            height: 80vh;
+        }
+        .nav-link:hover, .nav-link:focus {
+            color: #ffe7e7;
+            background-color: #ccafaf;
+        }
+
+        </style>
+    </head>
+    
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #ffe7e7">
+  <div class="container mt-3 mb-3">
+    <a class="navbar-brand" href="novo.html">
+        <img src="assets/images/LogoSpazio.png" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="color: #b8716f" >
+      <span style="color: #b8716f"><i class="fas fa-bars"></i></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" style="color: #b8716f; font-size: 15px" aria-current="page" href="novo.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: #b8716f; font-size: 15px" aria-current="page" href="novo.html#sobre">SOBRE</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" style="color: #b8716f; font-size: 15px" href="#procedimentos" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            PROCEDIMENTOS
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" style="color: #b8716f; font-size: 15px" href="preenchimento.html">Preenchimento</a></li>
+            <li><a class="dropdown-item" style="color: #b8716f; font-size: 15px" href="harmonização-facial.html">Harmonização Facial</a></li>
+            <li><a class="dropdown-item" style="color: #b8716f; font-size: 15px" href="botox.html">Botox</a></li>
+            <li><a class="dropdown-item" style="color: #b8716f; font-size: 15px" href="fios-PDO.html">Fios</a></li>
+            <li><a class="dropdown-item" style="color: #b8716f; font-size: 15px" href="bioestimulador.html">Bioestimuladores</a></li>
+            <li><a class="dropdown-item" style="color: #b8716f; font-size: 15px" href="skinbooster.html">SkinBooster</a></li>
+            <li><a class="dropdown-item" style="color: #b8716f; font-size: 15px" href="microagulhamento.html">Microagulhamento</a></li>
+            <li><a class="dropdown-item" style="color: #b8716f; font-size: 15px" href="lipo-papada.html">Lipo de Papada Enzimática</a></li>
+            <li><a class="dropdown-item" style="color: #b8716f; font-size: 15px" href="peelings.html">Peelings</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" style="color: #b8716f; font-size: 15px" href="#procedimentos" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            INFORMAÇÕES
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li>
+            <a class="dropdown-item" style="color: #b8716f; font-size: 15px" aria-current="page" href="avaliacao.html">Avaliação</a>
+        </li>
+        <a class="dropdown-item" style="color: #b8716f; font-size: 15px" aria-current="page" href="paciente-modelo.html">Paciente Modelo</a>
+        </li>
+        <a class="dropdown-item" style="color: #b8716f; font-size: 15px" aria-current="page" href="galeria.html">Galeria Antes e Depois</a>
+        </li>
+          </ul>
+        </li>
+          <a class="nav-link" style="color: #b8716f; font-size: 15px" aria-current="page" href="curso-harmony-face.html">CURSO HARMONY FACE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: #b8716f; font-size: 15px" aria-current="page" href="novo.html#contato">CONTATO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: #b8716f; font-size: 15px" aria-current="page"  target="_blank" href="sistema/login.php">LOGIN</a>
+        </li>
+      </ul>
+    </div>
+    
+  </div>
+</nav>
+        </header>
+        <main>
+            
+            <div class="container text-center">
+                <div class="row text-center">
+                    
+                    <div class="embed-responsive embed-responsive-16by9 text-center mt-5 mb-5  d-none d-lg-block">
+                        <iframe class="embed-responsive-item" src="https://spazioesthetic.com.br/sitenovo/assets/videos/abertura_2.mp4" style="width: 1066px; height: 600px"></iframe>
+                    </div>
+                    
+                    <div class="text-center d-block d-lg-none">
+                        <video width="100%" height="230px" controls="controls">
+                            <source src="assets/videos/abertura_2.mp4">
+                        </video>
+                    </div>
+
+                    <p align="justify">
+      O curso presencial é montado por módulos em que o aluno personaliza seu curso, podendo então fazer quantos módulos desejar juntos ou separados.<br><br>
+
+ 
+
+Todos os módulos consistem em um dia de curso com aula prática hands’on em pacientes modelos e bonecos de silicone, com início das 09:00 às 19:00hs, com pausa para almoço de 1 hora e intervalos para coffee break.<br><br>
+
+ 
+
+O aluno receberá após sua matrícula acesso ao nosso portal para realizar as aulas teóricas e as práticas somente presencial no dia escolhido, sendo assim, o aluno poderá estudar em sua casa todo material teórico para que no dia do seu curso presencial possa ter melhor aproveitamento na prática clínica. Nosso material disponibilizado em nosso portal é todos em formato de vídeos aula com a Dra Karla Eberle, trazendo ao aluno uma experiência ainda melhor em nossos cursos presenciais.<br><br>
+
+ 
+
+Nossos cursos presenciais são com no máximo 6 alunos por turma, assim garantindo melhor aprendizado e treinamento. Garantimos o mínimo de 1 paciente modelo por aluno. Todos os alunos receberão um kit personalizado do nosso instituto com todo material didático e acessórios para aula prática, não tendo o aluno nenhum outro gasto extra dentro do instituto a não ser o valor do curso.<br><br>
+
+ 
+
+Contamos com infra estrutura de estacionamento, equipe altamente qualificada para recepcionar e instruir nossos alunos para que tenha a melhor experiência em nossos cursos. Suporte pós curso via whatsapp com nossa equipe.<br><br>
+
+ 
+
+Estamos localizados na cidade de Americana/SP, com aeroporto próximo localizado na cidade de Campinas/SP que fica à 30 min do nosso instituto. Temos fácil acesso à rodovias, hotéis, shoppings e restaurantes para que sua experiência seja a melhor possível durante sua estadia aqui em nossa cidade.<br><br><br></p>
+
+
+<div class="col-12 text-center align-items-center" style="margin-bottom: 70px">
+<h1 class="altera-fonts fs-4 text-center">Escolha o módulo desejado...</h1>
+        <button class=" col-3 btn btn-estilo text-center mt-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom3" aria-controls="offcanvasBottom3" style="width:230px"><b>Toxina Botulínica</b></button>
+			
+		<button class=" col-3 btn btn-estilo mt-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom4" aria-controls="offcanvasBottom4"  style="width:230px"><b>Preenchimento</b></button>
+        <button class=" col-3 btn btn-estilo mt-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom5" aria-controls="offcanvasBottom5"  style="width:230px"><b>Bioestimuladores</b></button>
+			
+		<button class="col-3 btn btn-estilo mt-2 bt-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom6" aria-controls="offcanvasBottom6"  style="width:230px"><b>Fios de PDO</b></button>        
+  </div>
+  </div>
+  </div>
+ 
+
+
+    
+  
+
+<div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom3" aria-labelledby="offcanvasBottomLabel">
+  <div class="offcanvas-header text-center">
+      <div class="container">
+    <h1 class="offcanvas-title altera-fonts fs-3 text-center" id="offcanvasBottomLabel">Toxina Botulínica</h1>
+    </div>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body text-start">
+      <div class="container">
+      - introdução à toxina botulínica;<br>
+
+- avaliação do paciente;<br>
+
+- tipos de toxina botulínica, estocagem e diluição;<br>
+
+- técnicas de aplicação;<br>
+
+- contra indicações, cuidados e manutenção;<br>
+
+- aula bônus (fotodocumentação);<br>
+
+- dúvidas frequêntes;<br><br>
+
+ 
+
+Aula prática hands’on em pacientes modelos e boneco de silicone<br><br>
+
+ 
+
+- diluição;<br>
+
+- marcação;<br> 
+
+- aplicação;<br><br>
+
+ 
+
+ 
+
+Intercorrências com toxina botulínica<br><br>
+
+ 
+
+ 
+
+Valor R$ 3.600,00 à vista em até 10x R$360,00 no cartão de crédito ou até 10x no boleto bancário (mediante aprovação)<br><br>
+
+ 
+
+Matrícula: R$ 200,00 <br><br>
+
+Acesse nosso Whatsapp para matrículas e maiores informações abaixo!<br>
+<a href="https://api.whatsapp.com/send?phone=5519984243365">
+<button class="btn btn-success text-center"  style="margin-top: 15px">Whatsapp</button>
+</a>
+</div>
+</div>
+</div>
+
+<div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom4" aria-labelledby="offcanvasBottomLabel">
+  <div class="offcanvas-header text-center">
+      <div class="container">
+    <h1 class="offcanvas-title altera-fonts fs-3 text-center" id="offcanvasBottomLabel">Preenchimento com Ácido Hialurônico</h1>
+    </div>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body text-start">
+      <div class="container">
+     - revisão anatômica;<br>
+
+- ácido hialurônico;<br>
+
+- tipos de ácido hialurônico;<br>
+
+- avaliação do paciente;<br>
+
+- técnicas de aplicação;<br>
+
+- aula bônus (fotodocumentação);<br>
+
+- dúvidas frequentes;<br><br>
+
+ 
+
+Aula prática hands’on em pacientes modelos e boneco de silicone<br><br>
+
+ 
+
+- malar;<br>
+
+- mandibular;<br>
+
+- nasogeniano;<br>
+
+- olheiras;<br>
+
+- pré e pós jolw;<br>
+
+- mento;<br>
+
+- rinomodelação;<br>
+
+- lábios;<br><br>
+
+ 
+
+ 
+
+Intercorrências com ácido hialurônico<br><br>
+
+ 
+
+ 
+
+Valor R$ 3.600,00 à vista em até 10x R$ 360,00 no cartão de crédito ou até 24x no boleto bancário (mediante aprovação)<br><br>
+
+ 
+
+Matrícula: R$ 200,00<br><br>
+
+Acesse nosso Whatsapp para matrículas e maiores informações abaixo!<br>
+<a href="https://api.whatsapp.com/send?phone=5519984243365">
+<button class="btn btn-success text-center" style="margin-top: 15px">Whatsapp</button>
+</a>
+</div>
+</div>
+</div>
+
+<div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom5" aria-labelledby="offcanvasBottomLabel">
+  <div class="offcanvas-header text-center">
+      <div class="container">
+    <h1 class="offcanvas-title altera-fonts fs-3 text-center" id="offcanvasBottomLabel">Bioestimuladores de colágeno com hidroxiapatita de cálcio e ácido poliláctico</h1>
+    </div>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body text-start">
+      <div class="container">
+     - revisão anatômica;<br>
+
+- apresentação hidroxiapatita de cálcio e ácido poliláctico;<br>
+
+- tipos disponíveis no mercado e formulações;<br>
+
+- técnicas de preparo do produto e aplicação;<br>
+
+- avaliação do paciente;<br>
+
+- técnicas de aplicação;<br>
+
+- aula bônus (fotodocumentação);<br>
+
+- intercorrências com bioestimuladores;<br>
+
+- dúvidas frequêntes;<br><br>
+
+ 
+
+Aula prática hands’on em pacientes modelos e boneco de silicone<br><br>
+
+ 
+
+Prática clínica facial, colo e pescoço<br><br>
+
+ 
+
+ 
+
+Valor R$ 3.600,00 à vista em até 10x R$ 360,00 no cartão de crédito ou até 10x no boleto bancário (mediante aprovação)<br><br>
+
+ 
+
+Matrícula: R$ 200,00 <br><br>
+
+Acesse nosso Whatsapp para matrículas e maiores informações abaixo!<br>
+<a href="https://api.whatsapp.com/send?phone=5519984243365">
+<button class="btn btn-success text-center" style="margin-top: 15px">Whatsapp</button>
+</a>
+</div>
+</div>
+</div>
+
+<div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom6" aria-labelledby="offcanvasBottomLabel">
+  <div class="offcanvas-header text-center">
+      <div class="container">
+    <h1 class="offcanvas-title altera-fonts fs-3 text-center" id="offcanvasBottomLabel">Fios de PDO – lisos e tracionados</h1>
+    </div>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body text-start">
+      <div class="container">
+     - revisão anatômica;<br>
+
+- apresentação, origem e classificação dos fios;<br>
+
+- tipos de fios e suas características e absorção;<br>
+
+- indicações e contra indicações;<br>
+
+- avaliação do paciente;<br>
+
+- técnicas específicas de inserção de fios de pdo;<br>
+
+- plano de tratamento;<br>
+
+- aula bônus (fotodocumentação);<br>
+
+- intercorrências com fios de pdo;<br>
+
+- dúvidas frequêntes;<br><br>
+
+ 
+
+Aula prática hands’on em pacientes modelos e boneco de silicone<br><br>
+
+ 
+
+Prática clínica facial com fios lisos e tracionados<br><br>
+
+ 
+
+ 
+
+Valor R$ 3.600,00 à vista em até 10x R$ 360,00 no cartão de crédito ou até 10x no boleto bancário (mediante aprovação)<br><br>
+
+ 
+
+Matrícula: R$200,00<br><br>
+
+Acesse nosso Whatsapp para matrículas e maiores informações abaixo!<br>
+<a href="https://api.whatsapp.com/send?phone=5519984243365">
+<button class="btn btn-success text-center" style="margin-top: 15px">Whatsapp</button>
+</a>
+</div>
+</div>
+</div>
+
+
+        
+        
+       
+        
+    <footer class="text-center text-white" style="background-color: #945253">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <section class="mb-1 mt-1">
+      <!-- Facebook -->
+      
+      <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://api.whatsapp.com/send?phone=5519984243365" role="button"
+        ><i class="fab fa-whatsapp"></i
+      ></a>
+      
+      <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://www.facebook.com/drakarlaeberle" role="button"
+        ><i class="fab fa-facebook"></i
+      ></a>
+
+      <!-- Google -->
+      <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://www.instagram.com/drakarlaeberle/" role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" target="_blank" href="https://www.google.com/maps/place/Spazio+Esthetic/@-22.7355997,-47.3326037,15z/data=!4m5!3m4!1s0x0:0x1cc1b8a4486dbde9!8m2!3d-22.7355716!4d-47.3326055" role="button"
+        ><i class="fas fa-map-marker-alt"></i></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+  <section class="mb-4">
+      <a href="https://www.google.com/maps/place/Spazio+Esthetic/@-22.7355997,-47.3347924,17z/data=!3m1!4b1!4m5!3m4!1s0x94c89db6860fb55d:0x1cc1b8a4486dbde9!8m2!3d-22.7355716!4d-47.3326055" target="_blank" style="color: white">
+      <p>
+        Rua Sete de Setembro, 126 - Centro | Americana - SP - 13465-320
+      </p>
+      </a>
+    </section>
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2021 Copyright:
+    <a class="text-white" target="_blank" href="https://megapontocom.com.br/">Mega.Com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+        </main>
+        
+        
+
+        <script src="bootstrap5/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+
+        
+</body>
+</html>

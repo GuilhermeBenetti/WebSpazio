@@ -1,0 +1,68 @@
+.btn-estilo {
+  color: #fff;
+  background-color: #945253;
+  border-color: #945253;
+}
+.btn-estilo:hover {
+  color: #fff;
+  background-color: #713F40;
+  border-color: #713F40;
+}
+.btn-check:focus + .btn-estilo, .btn-estilo:focus {
+  color: #fff;
+  background-color: #713F40;
+  border-color: #0a58ca;
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.1);
+}
+.btn-check:checked + .btn-estilo, .btn-check:active + .btn-estilo, .btn-estilo:active, .btn-estilo.active, .show > .btn-estilo.dropdown-toggle {
+  color: #fff;
+  background-color: #713F40;
+  border-color: #713F40;
+}
+.btn-check:checked + .btn-estilo:focus, .btn-check:active + .btn-estilo:focus, .btn-estilo:active:focus, .btn-estilo.active:focus, .show > .btn-estilo.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.1);
+}
+.btn-estilo:disabled, .btn-estilo.disabled {
+  color: #fff;
+  background-color: #ffe7e7;
+  border-color: #945253;
+}
+
+
+.owl-prev {
+    left: -30px;
+}
+
+.owl-next {
+    right: -30px;
+}
+
+.owl-prev , .owl-next {
+    position: absolute;
+    top: 90px;
+}
+
+.offcanvas{
+    height: 700px;
+}
+
+.embed-container {
+ position: relative;
+ padding-bottom: 56.25%;
+ height: 0;
+ overflow: hidden;
+ max-width: 100%;
+ height: auto;
+ margin-top: 30px;
+ margin-bottom: 30px;
+}
+.embed-container iframe, .embed-container object, .embed-container embed {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+}
+
+
+
